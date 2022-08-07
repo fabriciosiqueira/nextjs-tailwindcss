@@ -1,5 +1,6 @@
 const baseApi = "http://localhost:4444";
 
+
 export default {
     list: async () => {
         const req = await fetch(`${baseApi}/funcionarios`, {
