@@ -49,7 +49,7 @@ export default function Home({users}) {
        
         } catch (error) {
             console.log(error)
-            //Router.reload(window.location.pathname)
+           
         }
         
     };
